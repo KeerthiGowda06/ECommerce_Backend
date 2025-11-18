@@ -1,0 +1,8 @@
+package com.example.ECommerce.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.ECommerce.entity.User;
+
+public interface UserRepository extends JpaRepository<User, Integer> {
+    User findByEmail(String email);
+}
