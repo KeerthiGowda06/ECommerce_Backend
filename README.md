@@ -43,7 +43,7 @@ It provides secure REST APIs for user authentication, product management, orders
 Admins are stored in-memory (no DB entry required).
 
 ---
-
+---
 # 🗂️ Project Structure
 
 src/main/java/com/example/ECommerce
