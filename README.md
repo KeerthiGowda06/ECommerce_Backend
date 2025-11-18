@@ -46,8 +46,12 @@ Admins are stored in-memory (no DB entry required).
 
 # 🗂️ Project Structure
 
-src/main/java/com/example/ECommerce │── controller/        # REST controllers │── services/          # Business logic │── entity/            # JPA entities │── Repository/        # JPA repositories │── Dto/               # Request models
-
+src/main/java/com/example/ECommerce
+│── controller/ # API Controllers
+│── entity/ # JPA Entities
+│── services/ # Business Logic
+│── Repository/ # JPA Repositories
+│── Dto/ # Data Transfer Objects
 ---
 
 # 🛢 Database Setup (MySQL)
